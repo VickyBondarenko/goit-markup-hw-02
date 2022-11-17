@@ -17,9 +17,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.text {
-  white-space: break-spaces;
-}
+
 .list {
   list-style: none;
 }
