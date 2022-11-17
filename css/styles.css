@@ -31,8 +31,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-
-  letter-spacing: 0.03em;
 }
 .logo-accent {
   color: var(--accent-color);
@@ -75,17 +73,19 @@ body {
 .hero-btn {
   color: var(--background-white-color);
   background-color: var(--accent-color);
-
+  font-family: inherit;
+  font-style: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  text-align: center;
+  cursor: pointer;
 }
 /* Переваги */
 .section-title {
   color: var(--first-color);
 
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -96,27 +96,22 @@ body {
 .feature-title {
   color: var(--first-color);
 
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
 /* Команда */
-.team-title {
-  color: var(--first-color);
-
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-
-  text-align: center;
-}
+.team-title,
 .position {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
+.team-title {
+  color: var(--first-color);
+  font-weight: 500;
+}
+
 /* Підвал */
 .page-footer {
   background-color: var(--background-grey-color);
@@ -126,13 +121,7 @@ body {
 }
 .addres-list {
   color: var(--background-white-color);
-
-  font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 .addres-list.pale {
   color: rgba(255, 255, 255, 0.6);
@@ -150,6 +139,7 @@ body {
   line-height: 1.61;
   letter-spacing: inherit;
   text-align: center;
+  cursor: pointer;
 }
 
 .btn-filtr:hover,
@@ -161,7 +151,6 @@ body {
 .project-title {
   color: var(--first-color);
 
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
