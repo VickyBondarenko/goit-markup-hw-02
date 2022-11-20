@@ -1,6 +1,7 @@
 :root {
   --background-white-color: #ffffff;
-  --background-grey-color: #2f303a;
+  --background-dark-grey-color: #2f303a;
+  --background-grey-color: #f5f4fa;
   --first-color: #212121;
   --secondary-color: #757575;
   --accent-color: #2196f3;
@@ -70,7 +71,7 @@ body {
 }
 /* Герой  */
 .hero {
-  background-color: var(--background-grey-color);
+  background-color: var(--background-dark-grey-color);
   text-align: center;
 }
 .hero-title {
@@ -111,6 +112,12 @@ body {
   text-transform: uppercase;
 }
 /* Команда */
+.team {
+  background-color: var(--background-grey-color);
+}
+.team-item {
+  background-color: var(--background-white-color);
+}
 .team-title,
 .team-position {
   font-size: 16px;
@@ -124,7 +131,7 @@ body {
 
 /* Підвал */
 .page-footer {
-  background-color: var(--background-grey-color);
+  background-color: var(--background-dark-grey-color);
 }
 .page-footer .logo {
   color: var(--background-white-color);
@@ -144,7 +151,7 @@ body {
 /* Фільтр */
 .btn-filtr {
   color: var(--first-color);
-  background-color: #f5f4fa;
+  background-color: var(--background-grey-color);
 
   font-family: inherit;
   font-style: inherit;
